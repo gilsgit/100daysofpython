@@ -14,3 +14,10 @@ number = random.randint(0 , (length - 1))
 name = names[number]
 
 print(f"{name} is going to buy the meal today!" )
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+
+print(dirty_dozen)
