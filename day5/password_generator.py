@@ -33,9 +33,11 @@ for number in range(1, (nr_numbers + 1)):
     password_array.append(numbers[number_amount])
     print(password_array)
 
+#shuffle password list characters
 random.shuffle(password_array)
 print(password_array)
 
+#add all characters together in one string
 password = ""
 for char in password_array:
     password += char
